@@ -122,7 +122,7 @@ void RotaryEncoder::begin()
       with the variable
 */
 /**************************************************************************/
-void RotaryEncoder::readAB()
+void IRAM_ATTR RotaryEncoder::readAB()
 {
   noInterrupts();                                       //disable interrupts
 
